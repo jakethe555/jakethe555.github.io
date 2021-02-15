@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+/* force scrollbar, prevents initial gap */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+}
+
+/* clear fix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+/* 3 columns, percentage width */
+.grid-item,
+.grid-sizer {
+  width: 32%;
+}
+
+.gutter-sizer {
+  width: 2%;
+}
+
+.grid-item {
+  float: left;
+  margin-bottom: 2%;
+  background: white;
+  overflow: hidden;
+}
+
+@media (max-width: 639px) {
+  /* 1 columns, percentage width */
+  .grid-item,
+  .grid-sizer {
+    width: 100%;
+  }
+
+  .grid-item {
+    margin-bottom: 5%;
+  }
+}
