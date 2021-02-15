@@ -18,12 +18,12 @@
   transform: scale(1.1);
 }
 
-.bg-one {
-  background-image: url("../img/img_t1.jpg");
+.bg-hackathon {
+  background-image: url("../img/dotori_photo/iPhone\ X-XS-11\ Pro\ –\ 1@2x.png");
 }
 
-.bg-two {
-  background-image: url("../img/img_t2.jpg");
+.bg-seoul {
+  background-image: url("../img/seoul_photo/photo2.jpg");
 }
 
 .bg-thesis {
