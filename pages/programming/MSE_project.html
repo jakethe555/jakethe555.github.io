@@ -1,83 +1,56 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jae Young Lee Portfolio</title>
-    <link rel="stylesheet" href="../../assets/css/foundation.css" />
-    <link rel="stylesheet" href="../../assets/css/basic.css" />
-    <link rel="stylesheet" href="../../assets/css/detail.css" />
-    <link rel="stylesheet" href="../../assets/css/font.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/qbi1dan.css" />
-  </head>
-  <body class="detail-body" id="top">
-    <div class="grid-container">
-      <div class="cell">
-        <div data-sticky-container>
-          <div
-            class="top-bar"
-            data-sticky
-            data-sticky-on="small"
-            data-margin-top="0"
-          >
-            <div class="top-bar-center">
-              <div class="top-bar-items">
-                <div class="grid-x grid-padding-x">
-                  <ul class="top-font" id="top-menu">
-                    <li>
-                      <a href="../../index.html#first">Home</a>
-                    </li>
-                    <li>
-                      <a href="../../index.html#second">About</a>
-                    </li>
-                    <li class="active">
-                      <a href="../../index.html#third">Work</a>
-                    </li>
-                  </ul>
-                  <a
-                    class="resume_button top-font"
-                    href="../../assets/document/JaeYoungLee_Resume.pdf"
-                    >Resume</a
-                  >
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jae Young Lee Portfolio</title>
+        <link rel="stylesheet" href="../../assets/css/foundation.css" />
+        <link rel="stylesheet" href="../../assets/css/basic.css" />
+        <link rel="stylesheet" href="../../assets/css/detail.css" />
+        <link rel="stylesheet" href="../../assets/css/font.css" />
+        <link rel="stylesheet" href="../../assets/css/style.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/qbi1dan.css" />
+    </head>
+    <body class="detail-body" id="top">
+        <div class="grid-container">
+            <div id="nav-placeholder" class="cell"></div>
+        </div>
+
+        <div class="main">
+            <div class="grid-container">
+                <div
+                    class="grid-y center-item"
+                    style="background-color: var(--theme-white)"
+                >
+                    <img src="../../assets/img/MSE_photo/Slide1.png" />
+                    <img src="../../assets/img/MSE_photo/Slide2.png" />
+                    <img src="../../assets/img/MSE_photo/Slide3.png" />
+                    <img src="../../assets/img/MSE_photo/Slide4.png" />
+                    <img src="../../assets/img/MSE_photo/Slide5.png" />
+                    <img src="../../assets/img/MSE_photo/Slide6.png" />
+                    <img src="../../assets/img/MSE_photo/Slide7.png" />
+                    <img src="../../assets/img/MSE_photo/Slide8.png" />
+                    <img src="../../assets/img/MSE_photo/Slide9.png" />
+                    <img src="../../assets/img/MSE_photo/Slide10.png" />
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="add-padding" style="padding-top: 30px">
+                <p>
+                    Copyright © Jae Young Lee 2021 &nbsp &nbsp &nbsp &nbsp
+                    Email: jaketheturtle555@gmail.com
+                </p>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="main">
-      <div class="grid-container">
-        <div
-          class="grid-y center-item"
-          style="background-color: var(--theme-white)"
-        >
-          <img src="../../assets/img/MSE_photo/Slide1.png" />
-          <img src="../../assets/img/MSE_photo/Slide2.png" />
-          <img src="../../assets/img/MSE_photo/Slide3.png" />
-          <img src="../../assets/img/MSE_photo/Slide4.png" />
-          <img src="../../assets/img/MSE_photo/Slide5.png" />
-          <img src="../../assets/img/MSE_photo/Slide6.png" />
-          <img src="../../assets/img/MSE_photo/Slide7.png" />
-          <img src="../../assets/img/MSE_photo/Slide8.png" />
-          <img src="../../assets/img/MSE_photo/Slide9.png" />
-          <img src="../../assets/img/MSE_photo/Slide10.png" />
-        </div>
-      </div>
-      <div class="add-padding" style="padding-top: 30px">
-        <p>
-          Copyright © Jae Young Lee 2021 &nbsp &nbsp &nbsp &nbsp Email:
-          jaketheturtle555@gmail.com
-        </p>
-      </div>
-    </div>
-
-    <script src="../../assets/js/vendor.js"></script>
-    <script src="../../assets/js/foundation.js"></script>
-    <script src="../../assets/js/fdinit.js"></script>
-    <script src="../../assets/js/top-menu.js"></script>
-  </body>
+        <script src="../../assets/js/vendor.js"></script>
+        <script src="../../assets/js/foundation.js"></script>
+        <script src="../../assets/js/fdinit.js"></script>
+        <script src="../../assets/js/top-menu.js"></script>
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("../nav.html");
+            });
+        </script>
+    </body>
 </html>
