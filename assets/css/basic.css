@@ -3,7 +3,7 @@
 }
 
 #pre-main {
-    padding-top: -0.4rem;
+    margin-top: -0.4rem;
     background: linear-gradient(#269c93, #218b83);
     height: 500px;
 }
