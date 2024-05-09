@@ -79,14 +79,23 @@
                         data-btm-anchor="pre-main:bottom"
                         data-sticky-on="small"
                     >
-                        <h1 id="myself">
-                            I am a
-                            <span
-                                class="txt-rotate"
-                                data-period="2000"
-                                data-rotate='[ "Programmer.", "Chemist.", "Photographer."]'
-                            ></span>
-                        </h1>
+                        <img
+                            id="profile-pic"
+                            style="
+                                width: 200px;
+                                opacity: 0;
+                                margin-right: 40px;
+                                border-radius: 50%;
+                            "
+                            src="assets/img/profile_photo.jpg"
+                        />
+                        <div id="profile-text">
+                            <h1>Hello, I am Jae Young</h1>
+                            <h3 style="color: var(--theme-grey)">
+                                A Full-stack dev, crafting user-centric,
+                                functional experiences
+                            </h3>
+                        </div>
                     </div>
                     <div
                         class="sticky center-item"
@@ -101,7 +110,7 @@
                                 opacity: 0;
                                 transform: rotate(180deg);
                             "
-                            id="test"
+                            id="turtle"
                             src="assets/img/turtle.svg"
                         />
                     </div>
@@ -124,12 +133,12 @@
                                     class="about-me"
                                     style="padding-bottom: 10px"
                                 >
-                                    I am a Full-Stack Developer passionate about
-                                    technology and eager to contribute to
-                                    innovative projects. With the unique
-                                    combination of expertise in both Computer
-                                    Science and Chemistry, I would be well
-                                    positioned to solve many real-world
+                                    I am a Full-Stack Software Engineer
+                                    passionate about technology and eager to
+                                    contribute to innovative projects. With the
+                                    unique combination of expertise in both
+                                    Computer Science and Chemistry, I would be
+                                    well positioned to solve many real-world
                                     challenges.
                                 </p>
                                 <p class="keyword">Software Development</p>
@@ -334,7 +343,7 @@
                     </div>
                 </div>
                 <div class="add-padding" style="padding-top: 30px">
-                    <p>
+                    <p style="color: var(--theme-grey)">
                         Copyright © Jae Young Lee 2024 &nbsp &nbsp &nbsp &nbsp
                         Email: jaeyounglee042@gmail.com
                     </p>
@@ -362,8 +371,9 @@
                     opacity = 0;
                     opacity_new = (currentScroll - 350) / checkpoint;
                 }
-                document.querySelector("#myself").style.opacity = opacity;
-                document.querySelector("#test").style.opacity = opacity_new;
+                document.querySelector("#profile-pic").style.opacity = opacity;
+                document.querySelector("#profile-text").style.opacity = opacity;
+                document.querySelector("#turtle").style.opacity = opacity_new;
             });
         </script>
     </body>

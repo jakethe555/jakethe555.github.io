@@ -2,11 +2,12 @@
     --theme-green: #28a000;
     --theme-brown: #805c00;
     --theme-white: #fff5f0;
+    --theme-grey: #3e3e3e;
 }
 
 * {
     color: var(--theme-brown);
-    font-family: "acumin-pro", sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 600;
 }
 /* 
