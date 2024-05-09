@@ -1,13 +1,13 @@
 :root {
-  --theme-green: #32cb00;
-  --theme-brown: #805c00;
-  --theme-white: #fff5f0;
+    --theme-green: #28a000;
+    --theme-brown: #805c00;
+    --theme-white: #fff5f0;
 }
 
 * {
-  color: var(--theme-brown);
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 600;
+    color: var(--theme-brown);
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 600;
 }
 /* 
 #logo {
@@ -24,20 +24,20 @@
 } */
 
 .about-me {
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 500;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 500;
 }
 
 .keyword {
-  color: var(--theme-green);
+    color: var(--theme-green);
 }
 
 .top-font {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 @media (max-width: 639px) {
-  .top-font {
-    font-size: 1rem;
-  }
+    .top-font {
+        font-size: 1rem;
+    }
 }
